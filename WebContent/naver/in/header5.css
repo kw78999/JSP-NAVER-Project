@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@media( max-width: 768px){
+	.naver{display: none;}
+	.in{display: none;}
+	}
+ #mainbanner{
+ width: 68%;
+ margin: 30px auto;
+ }
+.naver{
+cursor:pointer;
+border:0;
+outline:0;
+width:90px;height:30px;
+background: url("img/naver2.png");
+background-size:90px 30px;
+
+
+margin-top: 10px;
+}
+
+
+.in{
+cursor:pointer;
+border:0;
+outline:0;
+width:70px;height:30px;
+background: url("img/naver.png");
+background-size:70px 30px;
+
+margin-top: 10px;
+}
+.text{
+margin-left:20px;
+width:200px;
+height:25px;
+border-color: #00d205;
+border-style: solid;
+outline-color :#00d205;
+outline-style: solid;
+}
+.text:focus{
+border-color:#00d205;
+}
+.search{
+cursor:pointer;
+border:0;
+outline:0;
+width:35px;
+height:27px;
+background: url("img/search.png");
+background-size:35px 27px;
+margin-left: -43px;
+margin-bottom: -10px;
+}
+#loginset{
+float: right;
+}
+#logoutbtn{
+cursor:pointer;
+border:1;
+outline:none;
+border-color:#BBBBBB;
+width:80px;
+height:40px;
+background-color: white;
+border-style: solid;
+margin-left: 30px;	
+}
+.login{
+cursor:pointer;
+border:1;
+outline:none;
+border-color:#BBBBBB;
+width:80px;
+height:40px;
+background-color: white;
+border-style: solid;
+}
+#call{
+cursor:pointer;
+border:0;
+outline:0;
+width:30px;
+height:30px;
+background: url("img/call.png");
+background-size:30px 30px;
+}
+#loginon{
+font-size:20px;
+text-decoration: none;
+}
+#loginon:hover{
+text-decoration: none;	
+}
+.menubar{
+cursor:pointer;
+border:0;
+outline:0;
+width:30px;height:30px;
+background: url("img/menubar.png");
+background-size:30px 30px;
+margin-top: 15px;
+ 
+}
+.submenubar{
+
+width:74%;
+margin:0 auto;
+border-spacing:40px 0px;
+}
+.td{
+color:#666666;
+margin-left: 50px;
+padding-bottom: 15px;
+padding-top:15px;
+border-bottom:3px solid white;
+}
+.td:hover{
+border-bottom:3px solid #00d205;
+cursor:pointer;
+color: #00d205;
+}
+hr{
+background-color: #dddddd;
+height:1px;
+border:0px;
+}
+#tdbtn{
+position : relative;
+}
+#write{
+cursor:pointer;
+border:0;
+outline:0;
+width:30px;
+height:30px;
+position: absolute;
+    top: 11px;
+    left: 6px;
+background: url("img/write.png");
+background-size:30px 30px;
+}
+#menutable{
+  position: absolute;
+    top: 80px;
+    left: 1310px;
+    background-color: white;
+    border:2px solid #dddddd;
+    border-collapse: collapse;
+ }
+ #menutable th{
+ border-bottom: 2px solid #dddddd;
+ padding-bottom: 5px;
+ color:#40c700;
+  font-size:25px;
+ }
+  #menutable th:hover{
+  color:white;
+  background-color:#40c700;
+  font-size:25px;
+  }
+ #menutable tr{
+ padding-top:10px;
+ }
+  #menutable td:hover{
+  text-decoration: underline;
+  }
+ #menutable td{
+ cursor:pointer;
+ padding:8px 8px 8px 8px;
+ border-right: 1px solid #dddddd;
+ font-size: 14px;
+ align:left;
+ }

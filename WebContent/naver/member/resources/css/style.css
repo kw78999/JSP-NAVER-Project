@@ -1,0 +1,222 @@
+@charset "EUC-KR";
+* a {
+	text-decoration: none;
+	color: #8e8e8e;
+}
+
+* a:visited {
+	color: #8e8e8e;
+}
+.textBtn {
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 18px;
+}
+.textBtn:hover {
+	cursor: pointer;
+}
+.textBtn:active {
+	border: none;
+}
+html {
+	height: 100%;
+}
+body {
+	margin: 0px;
+	height: 100%;
+}
+
+#topBar-account{
+	height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: #19ce60;
+}
+#topBar-find {
+	height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    background: #19ce60;
+}
+.account-navbar-left {
+    margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.find-navbar-left {
+	margin-left: 18%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+.account-navbar-right {
+    margin-right: 18%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    min-width: 1116px;
+}
+.account-wrap {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.update-wrap {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.out-wrap {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.find-wrap {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+.account-card {
+	width: 450px;
+	height: 300px;
+	margin: 20px;
+	border: 1px solid grey;
+}
+.update-card {
+	width: 450px;
+	margin: 20px;
+	border: 1px solid grey;
+}
+.account-bottom {
+	display: flex;
+	flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 18%;
+    margin-right: 18%;
+}
+#loginArea {
+	background: #f5f6f7;
+	height: 100%;
+	overflow: hidden;
+	width:100%;
+}
+.top {
+	margin:auto;
+	width:15%;
+}
+.loginBox {
+	
+	width: 450px;
+	height: 50px;
+	margin:10px auto;
+}
+.logInBtn {
+	width: 100%;
+	background: #03c75a;
+	height: 100%;
+	border: none;
+	font-size: 24px;
+	color: white;
+}
+.logInput {
+	width: 100%;
+	height: 100%;
+}
+.low {
+	display: flex;
+	flex-direction: row;
+	width: 350px;
+	margin: auto;
+}
+.textBtn {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+@media( max-width: 1024px){
+	.top{width:60%;}
+	.loginBox{width:80%;height: 100px;margin-top: 20px;}
+	.logInput{font-size: 3rem;}
+	.logInBtn{font-size: 3rem;}
+	.low{width: 80%;}
+	.low div{font-size: 2.7rem;}
+}
+.container {
+	overflow: hidden;
+    min-width: 450px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.label {
+	overflow: hidden;
+    min-width: 450px;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-bottom: 5px;
+}
+.signInput {
+	width: 450px;
+	height: 50px;
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+.signInput-3{
+	width: 120px;
+	height: 50px;
+	margin-bottom: 5px;
+	font-size: 17px;
+}
+.signInput-3:hover {
+	cursor: pointer;
+}
+.signInput:hover {
+	cursor: pointer;
+}
+.birthPart {
+	overflow: hidden;
+	width: 450px;
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 5px;
+}
+.submitBtn {
+	margin-top: 10px;
+	border: none;
+	background: none;
+	font-size: 18px;
+}
+.submitBtn:hover {
+	cursor: pointer;
+}
