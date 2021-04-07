@@ -1,7 +1,7 @@
 # JSP-NAVER-Project
 JSP 기반의 웹사이트 입니다
 
-<img src="C:\Users\deers\Desktop\Light_Shot\Screenshot_27.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+<img width="952" alt="Screenshot_27" src="https://user-images.githubusercontent.com/73155761/113885204-9e657700-97fa-11eb-98a4-7b3d9fd4074d.png">
 
 ## 웹 사이트의 기본이 되는 기능을 섬세하게 구현했습니다.
 
