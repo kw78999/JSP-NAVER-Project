@@ -37,4 +37,4 @@ JSP 기반의 웹사이트 입니다
 #### 명예의 전당
  * 각종 랭킹 제공
 
-__바로가기 > __  [NAVER](http://kw78999.cafe24.com/naver/in/naverin_main.jsp)
+__바로가기 >__  [NAVER.jsp](http://kw78999.cafe24.com/naver/in/naverin_main.jsp)
